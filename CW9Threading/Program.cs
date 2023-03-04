@@ -65,7 +65,7 @@ namespace CW9Threading
             }
 
             // Drumroll Generator (Pi Evaluation)
-            Console.WriteLine("The results are in... The evaluation of Pi using " + numThreadsToRun + " threads each throwing " + numDartsToThrow + " is: " + 4.0 * (Convert.ToDouble(numDartsInside)) / (Convert.ToDouble(numDartsToThrow) * numThreadsToRun) + "\n");
+            Console.WriteLine("The results are in... The evaluation of Pi using " + numThreadsToRun + " threads each throwing " + numDartsToThrow + " darts is: " + 4.0 * (Convert.ToDouble(numDartsInside)) / (Convert.ToDouble(numDartsToThrow) * numThreadsToRun) + "\n");
             stopWatch.Dispose();
             Console.WriteLine("The whole calculation took approximately " + timer + " seconds.\n");
 
